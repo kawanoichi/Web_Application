@@ -1,0 +1,39 @@
+<!--  
+    Javascript 練習ファイル
+    @author kawanoichi
+-->
+<!-- "use strict"; -->
+<!DOCTYPE html>
+<html lang="ja">
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>JavaScript サンプル</title>
+    </head>
+    
+    <body>
+
+        <script>
+            let name = "kawano";
+            document.currentScript.insertAdjacentHTML('beforebegin', '<p>name</p>');
+            // document.currentScript.insertAdjacentHTML('beforebegin', '<p>', name,'</p>');
+        </script>
+
+    </body>
+
+</html>
+
+
+<!-- メモ
+文字を表示する。
+document.currentScript.insertAdjacentHTML('beforebegin', '<p>Hello</p>');
+
+var  :   再宣言可, 　再代入可
+let  : 再宣言不可, 　再代入可
+const: 再宣言不可, 再代入不可
+
+型を調べる
+console.log(typeof(変数));
+
+
+-->
